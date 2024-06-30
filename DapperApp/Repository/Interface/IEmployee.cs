@@ -4,5 +4,7 @@
     {
         Task<object> GetEmployees();
         Task<object> GetEmployee(string id);
+        Task<object> GetEmployeeO();
+        Task<object>GetEmployeesO(string id);
     }
 }
